@@ -19,7 +19,7 @@
   class="team-logo"
 />
           <img
-            src="../Assets/PremierLeagueLogo.png"
+            src="../Assets/logo.png"
             alt="Premier League"
             class="pl-logo"
           />
