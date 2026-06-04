@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen(options =>
         Scheme = "bearer",
         BearerFormat = "JWT",
         In = Microsoft.OpenApi.Models.ParameterLocation.Header,
-        Description = "Wpisz token w formacie: Bearer {twój_token}"
+        Description = "Wpisz token w formacie: Bearer {twÃ³j_token}"
     });
 
     options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
@@ -90,7 +90,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:5173",
-                "https://wirtualny-trener-licencjat.vercel.app"
+                "https://wirtualnytrener.com"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
