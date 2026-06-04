@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+
+*.user
+*.suo
+.vs/
+
+*.db-shm
+*.db-wal
