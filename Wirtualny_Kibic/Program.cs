@@ -90,7 +90,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:5173",
-                "https://wirtualny-trener-licencjat.vercel.app/"
+                "https://wirtualny-trener-licencjat.vercel.app"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
