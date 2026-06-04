@@ -118,7 +118,7 @@
 
 <script>
 import api from '../api/axios'
-import premierLogo from '../assets/logo.png'
+import premierLogo from '../Assets/logo.png'
 
 export default {
   data() {
